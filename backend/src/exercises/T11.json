@@ -1,0 +1,31 @@
+{
+  "lessonCode": "T11",
+  "exercises": [
+    {
+      "id": "t11_governanca_lgpd",
+      "type": "form_template",
+      "title": "Mapa de Governança e LGPD",
+      "description": "Identifique dados pessoais e defina donos e regras de acesso.",
+      "fields": [
+        {
+          "name": "pii",
+          "label": "Que dados pessoais (PII) aparecem no seu projeto? Como serão tratados (minimização, máscara, anonimização)?",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "owners",
+          "label": "Quem são os owners dos principais domínios de dados?",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "regras_acesso",
+          "label": "Quais regras de acesso você adotaria para perfis diferentes (negócio, análise, operação)?",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "lessonCode": "T4",
+  "exercises": [
+    {
+      "id": "t4_canvas_problema",
+      "type": "form_template",
+      "title": "Canvas do Problema",
+      "description": "Estruture problema, dor, público, decisão, hipóteses e KPIs.",
+      "fields": [
+        {
+          "name": "dor",
+          "label": "Dor (o que está ruim hoje?)",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "publico",
+          "label": "Quem sente essa dor?",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "decisao",
+          "label": "Que decisão queremos melhorar?",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "hipoteses",
+          "label": "Hipóteses iniciais",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "kpis",
+          "label": "KPIs pro sucesso",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "t4_quiz_basico",
+      "type": "quiz_single",
+      "title": "Quiz — Problema, Hipótese, KPI",
+      "questions": [
+        {
+          "id": "q1",
+          "statement": "Um bom projeto de dados começa com:",
+          "options": [
+            "Escolha da tecnologia",
+            "Definição da decisão e do problema",
+            "Contratação de uma consultoria"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dados existem para melhorar decisões. Começar pela tecnologia é inversão de causa e efeito."
+        }
+      ]
+    }
+  ]
+}

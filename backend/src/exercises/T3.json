@@ -1,0 +1,31 @@
+{
+  "lessonCode": "T3",
+  "exercises": [
+    {
+      "id": "t3_definir_gates",
+      "type": "form_template",
+      "title": "Definindo Gates do Projeto",
+      "description": "Monte três gates principais para um projeto de dados.",
+      "fields": [
+        {
+          "name": "gate1",
+          "label": "Gate 1 — O que precisa estar verdadeiro para seguir após o Discovery?",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "gate2",
+          "label": "Gate 2 — Critérios para considerar o MVP pronto para uso real?",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "gate3",
+          "label": "Gate 3 — Critérios para escalar (mais usuários/processos)?",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    }
+  ]
+}

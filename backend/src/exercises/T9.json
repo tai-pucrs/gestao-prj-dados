@@ -1,0 +1,25 @@
+{
+  "lessonCode": "T9",
+  "exercises": [
+    {
+      "id": "t9_regras_qualidade",
+      "type": "form_template",
+      "title": "Regras de Qualidade e Observabilidade",
+      "description": "Defina regras de qualidade e dois alertas de observabilidade.",
+      "fields": [
+        {
+          "name": "regras",
+          "label": "Defina pelo menos 5 regras de qualidade (dimensões como completude, acurácia, consistência etc.).",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "alertas",
+          "label": "Descreva 2 alertas importantes de observabilidade (por exemplo, queda de volume, atraso de atualização).",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    }
+  ]
+}
