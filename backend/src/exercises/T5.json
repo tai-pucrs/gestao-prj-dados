@@ -1,0 +1,31 @@
+{
+  "lessonCode": "T5",
+  "exercises": [
+    {
+      "id": "t5_mapa_stakeholders",
+      "type": "form_template",
+      "title": "Mapa de Stakeholders e Ritual de Consumo",
+      "description": "Liste stakeholders chave e desenhe um ritual de consumo de dados.",
+      "fields": [
+        {
+          "name": "stakeholders",
+          "label": "Quem são os stakeholders mais relevantes (negócio, técnico, dono de fonte, LGPD, etc.)?",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "poder_interesse",
+          "label": "Como você classificaria esses stakeholders em poder x interesse?",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "ritual",
+          "label": "Descreva um ritual de consumo de dados (frequência, participantes, decisão tomada).",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    }
+  ]
+}

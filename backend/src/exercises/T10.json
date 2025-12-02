@@ -1,0 +1,25 @@
+{
+  "lessonCode": "T10",
+  "exercises": [
+    {
+      "id": "t10_finops",
+      "type": "form_template",
+      "title": "Custos e FinOps",
+      "description": "Analise fatores de custo e proponha ações de FinOps.",
+      "fields": [
+        {
+          "name": "fatores_custo",
+          "label": "Quais fatores do seu projeto podem explodir custo (pessoas, compute, storage)?",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "acoes_finops",
+          "label": "Liste pelo menos 3 ações de FinOps para manter o custo sob controle.",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    }
+  ]
+}

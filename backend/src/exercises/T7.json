@@ -1,0 +1,43 @@
+{
+  "lessonCode": "T7",
+  "exercises": [
+    {
+      "id": "t7_arquitetura_5_caixas",
+      "type": "form_template",
+      "title": "Arquitetura em 5 Caixas",
+      "description": "Desenhe a arquitetura lógica do seu projeto nas 5 caixas.",
+      "fields": [
+        {
+          "name": "fontes",
+          "label": "Fontes (sistemas, arquivos, APIs)",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "ingestao",
+          "label": "Ingestão (como os dados chegam)",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "storage",
+          "label": "Storage/Lake/Warehouse",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "produtos",
+          "label": "Produtos de Dados (tabelas gold, modelos, APIs)",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "consumo",
+          "label": "Consumo (dashboards, integrações, relatórios)",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    }
+  ]
+}
