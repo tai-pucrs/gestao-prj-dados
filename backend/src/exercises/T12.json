@@ -1,0 +1,31 @@
+{
+  "lessonCode": "T12",
+  "exercises": [
+    {
+      "id": "t12_golive_okrs",
+      "type": "form_template",
+      "title": "Go-live, Adoção e OKRs",
+      "description": "Planeje o go-live, defina OKRs e descreva o encerramento do projeto.",
+      "fields": [
+        {
+          "name": "checklist_golive",
+          "label": "Liste um checklist mínimo para o go-live (testes, documentação, dono, suporte etc.).",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "okrs",
+          "label": "Defina 1 objetivo e 2–3 resultados-chave (OKRs) para acompanhar o impacto do produto de dados.",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "encerramento",
+          "label": "Descreva o que precisa acontecer para encerrar o projeto e transferir para operação.",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    }
+  ]
+}

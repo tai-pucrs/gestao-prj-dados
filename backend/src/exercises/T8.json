@@ -1,0 +1,31 @@
+{
+  "lessonCode": "T8",
+  "exercises": [
+    {
+      "id": "t8_roadmap_riscos",
+      "type": "form_template",
+      "title": "Roadmap e Riscos",
+      "description": "Monte um roadmap de 3 entregas verticais e liste riscos principais.",
+      "fields": [
+        {
+          "name": "entregas",
+          "label": "Descreva 3 entregas verticais (da fonte à decisão).",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "estimativas",
+          "label": "Dê uma estimativa por faixa (otimista / realista / pessimista) para cada entrega.",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "riscos",
+          "label": "Liste pelo menos 5 riscos e uma possível mitigação para cada.",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    }
+  ]
+}

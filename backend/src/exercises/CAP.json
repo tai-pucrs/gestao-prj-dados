@@ -1,0 +1,61 @@
+{
+  "lessonCode": "CAP",
+  "exercises": [
+    {
+      "id": "cap_carreira_plano",
+      "type": "form_template",
+      "title": "Capstone — Plano de Desenvolvimento de Carreira",
+      "description": "Estruture aqui seu plano de desenvolvimento de carreira (PDI) conectando visão de futuro, ações e indicadores.",
+      "fields": [
+        {
+          "name": "titulo_plano",
+          "label": "Nome do plano de carreira (ex: \"Ser Data Engineer Sênior em 3 anos\")",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "contexto_atual",
+          "label": "Contexto atual (função, empresa, nível, principais condições e limitações)",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "visao_futuro",
+          "label": "Visão de futuro (onde você quer estar em 3–5 anos em termos de papel, impacto, renda, estilo de vida)",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "forcas",
+          "label": "Principais forças e diferenciais (habilidades técnicas, comportamentais, experiências, características pessoais)",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "gaps",
+          "label": "Principais lacunas de habilidades/experiências que você precisa desenvolver",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "acoes_12_meses",
+          "label": "Ações concretas para os próximos 12 meses (cursos, projetos, certificações, mudanças de papel, networking etc.)",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "indicadores_sucesso",
+          "label": "Como você vai medir progresso? (indicadores, metas, \"marcos\" de conquista)",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "rede_apoio",
+          "label": "Rede de apoio e rituais (mentores, comunidades, pares, práticas de estudo/autocuidado que vão sustentar esse plano)",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    }
+  ]
+}

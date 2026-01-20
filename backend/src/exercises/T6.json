@@ -1,0 +1,25 @@
+{
+  "lessonCode": "T6",
+  "exercises": [
+    {
+      "id": "t6_mvp_e_dod",
+      "type": "form_template",
+      "title": "Definição de MVP e DOD",
+      "description": "Descreva o MVP e o Definition of Done do seu projeto de dados.",
+      "fields": [
+        {
+          "name": "mvp",
+          "label": "Qual é o MVP (mínimo produto viável) deste projeto? Descreva o que **entra** e o que **fica fora**.",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "dod",
+          "label": "Qual o Definition of Done (DOD) para considerar a solução pronta de verdade?",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "lessonCode": "T2",
+  "exercises": [
+    {
+      "id": "t2_quiz_basico",
+      "type": "quiz_single",
+      "title": "Quiz — Triângulo de Ferro",
+      "questions": [
+        {
+          "id": "q1",
+          "statement": "Quais são os três lados do triângulo de ferro em projetos?",
+          "options": [
+            "Escopo, prazo e custo",
+            "Prazo, custo e pessoas",
+            "Escopo, custo e risco"
+          ],
+          "correctIndex": 0,
+          "explanation": "O triângulo clássico usa escopo, prazo e custo. Qualidade é consequência desse equilíbrio."
+        },
+        {
+          "id": "q2",
+          "statement": "Se escopo aumenta e prazo e custo não mudam, a tendência é:",
+          "options": [
+            "A qualidade cair",
+            "Tudo continuar igual",
+            "O projeto ficar mais simples"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mais escopo sem mais tempo/dinheiro geralmente come qualidade."
+        }
+      ]
+    }
+  ]
+}

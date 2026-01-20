@@ -1,0 +1,31 @@
+{
+  "lessonCode": "T1",
+  "exercises": [
+    {
+      "id": "t1_classificar_ppop",
+      "type": "form_template",
+      "title": "Projeto, Produto ou Operação?",
+      "description": "Classifique as situações e explique seu raciocínio.",
+      "fields": [
+        {
+          "name": "situacao1",
+          "label": "Situação 1 — \"Construir um novo pipeline de dados do zero\" é projeto, produto ou operação? Por quê?",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "situacao2",
+          "label": "Situação 2 — \"Tabela gold oficial de KPIs usada todo mês\" é projeto, produto ou operação? Por quê?",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "situacao3",
+          "label": "Situação 3 — \"Corrigir job que quebrou hoje\" é projeto, produto ou operação? Por quê?",
+          "type": "textarea",
+          "required": true
+        }
+      ]
+    }
+  ]
+}
